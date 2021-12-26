@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Câu chuyện Adam và Eva</title>
+    <script src="apple.js"></script>
+    <script src="human.js"></script>
+</head>
+<body>
+<script>
+    let apple = new Apple(10,'red');
+    let human = new Human('Eva','Female',50);
+    console.log(human.isMale());
+    human.setGender();
+    human.say();
+    human.checkApple(apple);
+    console.log(apple.isEmpty());
+    human.eatApple(apple);
+    document.write('The weight of ' + human.name + 'is' + human.weight);
+
+</script>
+</body>
+</html>
